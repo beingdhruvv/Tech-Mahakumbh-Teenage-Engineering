@@ -1,16 +1,14 @@
-# Tech-Mahakumbh-Teenage-Engineering
-
 # Intelligent Energy Management System (IEMS)
 
-Team: Teenage Engineering
+Team: Teenage Engineering Works
 
 Team Members: Dhruv Suthar, Pratham Patel, Hena Patel
 
-Version: 4.1 (7 July)
+Version: 4.1 (7 JULY)
 
 
 
-![IEMS DEMO VIDEO](https://drive.google.com/file/d/11PdVVZx7XPVAZjbms82whrujv4gfmhdD/view?usp=drive_link)
+![IEMS DEMO VIDEO](https://github.com/user-attachments/assets/54c72df2-a1fb-4397-b787-678a62b644d6)
 
 ![WhatsApp Image 2025-02-22 at 1 46 34 PM](https://github.com/user-attachments/assets/a58d535c-6a1e-41c2-97d7-b3b1842e2a3c)
 
@@ -53,3 +51,4 @@ The **Intelligent Energy Management System (IEMS)** is an advanced energy manage
 └── Logger.h          # Logging system
 ```
 ---
+
