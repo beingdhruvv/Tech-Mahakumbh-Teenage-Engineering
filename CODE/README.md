@@ -4,8 +4,8 @@ This folder contains two key components of our **IEMS (Intelligent Energy Manage
 
 ## 📂 Contents
 
-- **TEENAGE-ENGINEERING-1572** – Project overview presentation including the problem statement, proposed solution, system architecture, features, and results.
-- **iEMS-V1.6** – Latest version of the interactive **Smart Energy Dashboard** showing real-time energy metrics, solar/battery/grid control, analytics, and efficiency trends.
+- **TEENAGE-ENGINEERING-1572.pdf** – Project overview presentation including the problem statement, proposed solution, system architecture, features, and results.
+- **iEMS-V1.6.html** – Latest version of the interactive **Smart Energy Dashboard** showing real-time energy metrics, solar/battery/grid control, analytics, and efficiency trends.
 
 ## 🧠 Purpose
 
