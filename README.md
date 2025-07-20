@@ -62,7 +62,7 @@ Built in response to **SIH 2024 Problem Statement PS 1572**, IEMS contributes to
 
 ## 🌐 Demo Dashboard
 
-> To view the new dashboard (v1.6), open `presentation/iEMS-v1.6.html` in your browser.
+> To view the new dashboard (v1.6), open `CODE/iEMS-v1.6.html` in your browser.
 
 It includes interactive analytics, real-time values, control buttons, system efficiency meter, and alert system.
 
