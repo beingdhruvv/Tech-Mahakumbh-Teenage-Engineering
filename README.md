@@ -1,2 +1,55 @@
 # Tech-Mahakumbh-Teenage-Engineering
-IEMS is an advanced energy management system built on ESP32 that intelligently manages power distribution between solar, battery, and grid sources while ensuring system safety and efficiency.
+
+# Intelligent Energy Management System (IEMS)
+
+Team: Teenage Engineering
+
+Team Members: Dhruv Suthar, Pratham Patel, Hena Patel
+
+Version: 4.1 (7 July)
+
+
+
+![IEMS DEMO VIDEO](https://drive.google.com/file/d/11PdVVZx7XPVAZjbms82whrujv4gfmhdD/view?usp=drive_link)
+
+![WhatsApp Image 2025-02-22 at 1 46 34 PM](https://github.com/user-attachments/assets/a58d535c-6a1e-41c2-97d7-b3b1842e2a3c)
+
+## Overview
+The **Intelligent Energy Management System (IEMS)** is an advanced energy management solution built on the ESP32 microcontroller. It intelligently manages power distribution between solar, battery, and grid sources while ensuring system safety, efficiency, and reliability. The system is designed for real-time monitoring, control, and optimization of energy usage.
+
+---
+
+## Dependencies
+- Wire.h - I2C communication
+- OneWire & DallasTemperature - Temperature sensor interface
+- Adafruit_INA219 - Current/voltage monitoring
+- ZMPT101B - AC voltage measurement
+- EmonLib - Energy monitoring
+- ESPAsyncWebServer - Web server functionality
+- AsyncTCP - Asynchronous TCP operations
+- ArduinoJson - JSON data handling
+
+## Key Features
+- **Multi-Source Power Management**: Intelligent switching between Solar, Battery, and Grid
+- **Real-Time Monitoring**: Temperature, current, voltage, and power consumption tracking
+- **Automated Control**: Smart decision-making for optimal power source selection
+- **Safety Systems**: 
+  - Temperature-based shutdown (>80°C)
+  - Overcurrent protection
+  - Voltage monitoring
+  - Automatic fan control
+- **Web Interface**: Modern dashboard for monitoring and control
+- **Data Logging**: Comprehensive system metrics recording
+- **Fail-Safe Operation**: Degraded mode support for system reliability
+
+## Project Structure
+```
+├── main.ino          # Main program file
+├── config.h          # Configuration and pin definitions
+├── webui.h           # Web interface HTML/CSS/JS
+├── SensorManager.h   # Sensor data management
+├── PowerManager.h    # Power source control
+├── SensorInit.h      # Sensor initialization
+└── Logger.h          # Logging system
+```
+---
