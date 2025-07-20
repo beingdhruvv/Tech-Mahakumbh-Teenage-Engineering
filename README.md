@@ -1,46 +1,53 @@
-# Intelligent Energy Management System (IEMS)
+# ⚡ Intelligent Energy Management System (IEMS)
 
-Team: Teenage Engineering Works
-
-Team Members: Dhruv Suthar, Pratham Patel, Hena Patel
-
-Version: 4.1 (7 JULY)
-
-
-
-![IEMS DEMO VIDEO](https://github.com/user-attachments/assets/54c72df2-a1fb-4397-b787-678a62b644d6)
-
-![WhatsApp Image 2025-02-22 at 1 46 34 PM](https://github.com/user-attachments/assets/a58d535c-6a1e-41c2-97d7-b3b1842e2a3c)
-
-## Overview
-The **Intelligent Energy Management System (IEMS)** is an advanced energy management solution built on the ESP32 microcontroller. It intelligently manages power distribution between solar, battery, and grid sources while ensuring system safety, efficiency, and reliability. The system is designed for real-time monitoring, control, and optimization of energy usage.
+**Team:** Teenage Engineering Works  
+**Team Members:** Dhruv Suthar, Pratham Patel, Hena Patel  
+**Version:** 4.1 (Updated: 7 July 2025)
 
 ---
 
-## Dependencies
-- Wire.h - I2C communication
-- OneWire & DallasTemperature - Temperature sensor interface
-- Adafruit_INA219 - Current/voltage monitoring
-- ZMPT101B - AC voltage measurement
-- EmonLib - Energy monitoring
-- ESPAsyncWebServer - Web server functionality
-- AsyncTCP - Asynchronous TCP operations
-- ArduinoJson - JSON data handling
+![IEMS DEMO VIDEO](https://github.com/user-attachments/assets/54c72df2-a1fb-4397-b787-678a62b644d6)
+![System Setup](https://github.com/user-attachments/assets/a58d535c-6a1e-41c2-97d7-b3b1842e2a3c)
 
-## Key Features
-- **Multi-Source Power Management**: Intelligent switching between Solar, Battery, and Grid
-- **Real-Time Monitoring**: Temperature, current, voltage, and power consumption tracking
-- **Automated Control**: Smart decision-making for optimal power source selection
-- **Safety Systems**: 
-  - Temperature-based shutdown (>80°C)
-  - Overcurrent protection
-  - Voltage monitoring
+## 🚀 Overview
+
+The **Intelligent Energy Management System (IEMS)** is a smart, ESP32-based solution designed to **manage energy flow** between **solar**, **battery**, and **grid power** in real-time. It prioritizes energy efficiency, system protection, and autonomous decision-making using IoT capabilities and a modern **web dashboard**.
+
+Built in response to **SIH 2024 Problem Statement PS 1572**, IEMS contributes to developing a robust Energy Storage System (ESS) that integrates **renewable sources** and enhances **grid stability**.
+
+---
+
+## 🧠 Key Features
+
+- 🔌 **Multi-Source Power Control** – Smart switching between Solar, Battery, and Grid
+- 📊 **Live Monitoring** – Track voltage, current, temperature, and system load
+- 🤖 **Automated Decision Logic** – Dynamic switching based on conditions
+- 🧯 **Safety Systems**  
+  - Auto shutdown on high temperature (>80°C)  
+  - Overcurrent protection  
+  - Battery voltage monitoring  
   - Automatic fan control
-- **Web Interface**: Modern dashboard for monitoring and control
-- **Data Logging**: Comprehensive system metrics recording
-- **Fail-Safe Operation**: Degraded mode support for system reliability
+- 🌐 **Web Dashboard (v1.6)**  
+  - Real-time charts, analytics, and energy trends  
+  - Control buttons for Solar/Battery/Grid/Auto  
+  - System Efficiency and Status Indicators
+- 🧾 **Data Logging** – Storage-ready logging system
+- 💡 **Fail-Safe Mode** – Ensures fallback functionality during fault conditions
 
-## Project Structure
+---
+
+## 🛠️ Dependencies
+
+- `Wire.h` – I2C Communication  
+- `OneWire` & `DallasTemperature` – Temp sensors  
+- `Adafruit_INA219` – Voltage & Current sensing  
+- `ZMPT101B`, `EmonLib` – AC voltage & energy monitoring  
+- `ESPAsyncWebServer`, `AsyncTCP` – Web server  
+- `ArduinoJson` – Data serialization
+
+---
+
+## 📂 Project Structure
 ```
 ├── main.ino          # Main program file
 ├── config.h          # Configuration and pin definitions
@@ -50,5 +57,13 @@ The **Intelligent Energy Management System (IEMS)** is an advanced energy manage
 ├── SensorInit.h      # Sensor initialization
 └── Logger.h          # Logging system
 ```
+
 ---
 
+## 🌐 Demo Dashboard
+
+> To view the new dashboard (v1.6), open `presentation/iEMS-v1.6.html` in your browser.
+
+It includes interactive analytics, real-time values, control buttons, system efficiency meter, and alert system.
+
+---
