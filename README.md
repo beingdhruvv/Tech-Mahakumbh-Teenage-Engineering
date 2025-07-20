@@ -48,13 +48,19 @@ Built in response to **SIH 2024 Problem Statement PS 1572**, IEMS contributes to
 
 ## 📂 Project Structure
 ```
-├── main.ino          # Main program file
-├── config.h          # Configuration and pin definitions
-├── webui.h           # Web interface HTML/CSS/JS
-├── SensorManager.h   # Sensor data management
-├── PowerManager.h    # Power source control
-├── SensorInit.h      # Sensor initialization
-└── Logger.h          # Logging system
+├── main.ino                # Main program logic for ESP32
+├── config.h                # Pin definitions and configuration constants
+├── webui.h                 # Embedded HTML, CSS & JS for web dashboard
+├── Logger.cpp              # Implementation of logging system
+├── Logger.h                # Logging system header
+├── PowerManager.cpp        # Controls power source switching (Solar/Battery/Grid)
+├── PowerManager.h          # Power control logic declarations
+├── SensorInit.cpp          # Initializes sensors (voltage, current, temp, etc.)
+├── SensorInit.h            # Sensor setup declarations
+├── SensorManager.cpp       # Reads and processes sensor data
+├── SensorManager.h         # Sensor reading function declarations
+├── README.md               # Project documentation
+
 ```
 
 ---
