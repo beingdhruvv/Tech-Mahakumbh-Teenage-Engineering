@@ -19,20 +19,19 @@ Built in response to **SIH 2024 Problem Statement PS 1572**, IEMS contributes to
 
 ## 🧠 Key Features
 
-- 🔌 **Multi-Source Power Control** – Smart switching between Solar, Battery, and Grid
-- 📊 **Live Monitoring** – Track voltage, current, temperature, and system load
-- 🤖 **Automated Decision Logic** – Dynamic switching based on conditions
-- 🧯 **Safety Systems**  
+- **Multi-Source Power Control** – Smart switching between Solar, Battery, and Grid
+- **Live Monitoring** – Track voltage, current, temperature, and system load
+- **Automated Decision Logic** – Dynamic switching based on conditions
+- **Safety Systems**  
   - Auto shutdown on high temperature (>80°C)  
   - Overcurrent protection  
   - Battery voltage monitoring  
   - Automatic fan control
-- 🌐 **Web Dashboard (v1.6)**  
+- **Web Dashboard (v1.6)**  
   - Real-time charts, analytics, and energy trends  
   - Control buttons for Solar/Battery/Grid/Auto  
   - System Efficiency and Status Indicators
-- 🧾 **Data Logging** – Storage-ready logging system
-- 💡 **Fail-Safe Mode** – Ensures fallback functionality during fault conditions
+- **Fail-Safe Mode** – Ensures fallback functionality during fault conditions
 
 ---
 
