@@ -1,7 +1,9 @@
 # ⚡ Intelligent Energy Management System (IEMS)
 
 **Team:** Teenage Engineering
+
 **Team Members:** Dhruv Suthar, Pratham Patel, Hena Patel  
+
 **Version:** 4.1 (Updated: 7 July 2025)
 
 ---
